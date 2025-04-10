@@ -13,7 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://aimanazim539:manzim13@thirdeye.oev3a.mongodb.net/?retryWrites=true&w=majority&appName=ThirdEye",
+  "#############################",
   {
     dbName: 'ThirdEye',
   }
@@ -223,8 +223,8 @@ app.get('/alertsHistory', async (req, res) => {
   }
 });
 
-const API_KEY = "jamai_sk_fe480cff5e51d9a9ed27d5aed49711a478d340e0cabfa591"; // Your API key
-const PROJECT_ID = "proj_f237e2312779764a4d37aaf0"; // Your project ID
+const API_KEY = "#############################"; // Your API key
+const PROJECT_ID = "#######################"; // Your project ID
 
 app.post('/analyze', async (req, res) => {
   try {
