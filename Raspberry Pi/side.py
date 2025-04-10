@@ -17,7 +17,7 @@ except Exception as e:
     print(f"Failed to initialize MAX30100 sensor: {e}")
 
 # MongoDB setup
-mongo_uri = "mongodb+srv://aimanazim539:manzim13@thirdeye.oev3a.mongodb.net/?retryWrites=true&w=majority&appName=ThirdEye"
+mongo_uri = "###############################################################"
 client = MongoClient(mongo_uri, server_api=ServerApi('1'))
 
 try:
