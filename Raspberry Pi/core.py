@@ -29,7 +29,7 @@ def speak(message):
     print(e)
 
 # MongoDB Atlas setup
-mongo_uri = "mongodb+srv://aimanazim539:manzim13@thirdeye.oev3a.mongodb.net/?retryWrites=true&w=majority&appName=ThirdEye"
+mongo_uri = "############################################################"
 client = MongoClient(mongo_uri, server_api=ServerApi('1'))
 db_collection = client.ThirdEye.fallinfos
 
@@ -42,8 +42,8 @@ except Exception as e:
     print(f"MongoDB connection error: {e}")
 
 # Telegram bot setup
-TELEGRAM_BOT_TOKEN = '7576325124:AAF0PYmVWmM0yBX3YW8tOW_wJTvzRjQIYmg'
-TELEGRAM_CHAT_ID = '-4604951607'
+TELEGRAM_BOT_TOKEN = '#####################################'
+TELEGRAM_CHAT_ID = '#########'
 
 # GPIO setup
 BUTTON_PIN = 20
@@ -162,7 +162,7 @@ def start_object_detection():
     global object_detection_process
     if object_detection_process is None:
         object_detection_process = Popen(
-            ["python3", "/home/manzim/Desktop/fyp/main.py", "--modeldir", "/home/manzim/Desktop/fyp/custom_model_lite", "--edgetpu"],
+            ["python3", "/home/user/Desktop/fyp/main.py", "--modeldir", "/home/user/Desktop/fyp/custom_model_lite", "--edgetpu"],
             stdout=PIPE, stderr=PIPE
         )
         print(f"Object detection started with PID: {object_detection_process.pid}")
