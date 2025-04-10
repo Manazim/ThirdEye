@@ -142,6 +142,7 @@ To ensure the system starts automatically on boot, I used **systemd services** i
 > 📌 Make sure to create a `.service` file and enable it using:
 ```bash
 sudo systemctl enable your-service-name.service
+```
 
 ![result](./result.jpg)
 
