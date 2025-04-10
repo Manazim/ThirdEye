@@ -92,8 +92,8 @@ const formattedDate = `${dayOfWeek}_${month}${day}${year}`;
       console.log("Combined Data:", combinedData);
   
       const jamai = new JamAI({
-        token: "jamai_sk_fe480cff5e51d9a9ed27d5aed49711a478d340e0cabfa591", // Your actual API key
-        projectId: "proj_b94ddb2a281eef887d90264a", // Correct Project ID, not the same as API key
+        token: "", // Your actual API key
+        projectId: "", // Correct Project ID, not the same as API key
         dangerouslyAllowBrowser: true,
       });
   
