@@ -14,7 +14,7 @@ const Stream = () => {
         setLoading(true); // Show loading animation
         setMessage(''); // Clear previous message
         try {
-            await axios.post('http://thirdeyestream.share.zrok.io/start_stream', {}, {
+            await axios.post('####################', {}, {
                 headers: { 
                   Authorization: `Bearer ${localStorage.getItem('token')}` 
                 }
