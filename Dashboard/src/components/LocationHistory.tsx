@@ -22,7 +22,7 @@ const LocationHistory = () => {
   const [filteredData, setFilteredData] = useState<LocationData[]>([]);
   const navigate = useNavigate();
 
-  const API_KEY = 'd4163c34db9c4d6f83276315d0e01682';
+  const API_KEY = '';
 
   // Fetch location data from the API
   const fetchLocationData = async () => {
