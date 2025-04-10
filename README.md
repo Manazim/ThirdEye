@@ -56,10 +56,10 @@ Though designed primarily for the visually impaired, **ThirdEye** is also suitab
 - Button Module
 
 🔧 For better understanding, refer to the **hardware architecture** diagram below:  
-(*Insert your diagram here*)
+![hardware](./hardware.jpg)
 
 🧭 System workflow:  
-(*Insert your workflow diagram here*)
+![flow](./flow.jpg)
 
 ---
 
@@ -142,3 +142,6 @@ To ensure the system starts automatically on boot, I used **systemd services** i
 > 📌 Make sure to create a `.service` file and enable it using:
 ```bash
 sudo systemctl enable your-service-name.service
+
+![result](./result.jpg)
+
